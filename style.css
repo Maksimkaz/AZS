@@ -1,0 +1,216 @@
+/* Шрифты */
+@font-face {
+    font-family: "Monts"; 
+    src: url(fonts/monts.ttf);
+} 
+/* Обнулил стили */
+body {
+    margin:0;
+    padding: 0;
+}
+/* Общие приколы скидываю сюда */
+.container{
+    max-width: 1150px;
+    margin: auto;
+}
+.title {
+    font-family: "Monts";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 78px;
+    text-align: center;
+    padding-top: 174px;
+    max-width: 1150px;
+    margin: auto;
+}
+
+/* Навигация */
+
+.nav{
+    display:flex;
+    justify-content:flex-start;
+}
+.nav__logo{
+    font-family: 'Bilbo Swash Caps';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 90px;
+    text-decoration: none;
+    margin-right: 100px;
+}
+.nav__btn{
+    font-family: 'Monts';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-decoration: none;
+    line-height: 80px;
+    color: #424242;
+    margin-right: 30px;
+}
+.nav-link {
+    font-family: 'Monts';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-decoration: none;
+    line-height: 80px;
+    color: #424242;
+    margin-left:200px;
+}
+.auth {
+    margin-left: auto;
+}
+.form_auth_block {
+    margin-left:300px;
+    margin-top: 30px;
+}
+
+/* Интродьюшка */
+
+.intro {
+    background:url(img/background.jpg) no-repeat center top / cover;
+    background-size: 100%;
+    height: 1000px;
+}
+.intro__title {
+    color:aliceblue;
+}
+.intro__btn {
+    text-align: center;
+    margin-top: 60px;
+    transition: 1s;
+}
+.intro__btn:hover{
+    transform: scale(1.1);
+}
+.intro__btn__txt {
+    text-decoration: none;
+    background:rgb(41, 1, 1);
+    border-radius: 20px;
+    padding: 26px 32px 26px 32px;
+    color:white;
+    text-decoration: none;
+    font-family: 'Monts';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 44px;
+    transition: 1s;
+}
+.intro__btn__txt:hover {
+    background:rgb(10, 2, 2);
+}
+
+/* О нас там вся фигня */
+
+.about__cards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 72px;
+}
+.about__cards__card__img {
+    height: 200px;
+    width: 200px;
+}
+.about__cards__card__title {
+    font-family: 'Monts';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    margin-top: 21px;
+}
+
+/* Поставщики вроде как */
+
+.suppl {
+    display: flex;
+}
+.special-img {
+    margin-right: 30px;
+    transition: 1s;
+}
+.special-img:hover {
+    transform: scale(1.2);
+   }
+.type-text {
+    margin-top:95px;
+    font-family: 'Monts';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+}
+
+/* Подвал */
+
+footer {
+    background-color:rgb(114, 114, 114);
+}
+.footer-nav{
+    display:flex;
+    justify-content:flex-start;
+}
+.footer-nav__logo{
+    margin-left: 20px;
+    font-family: 'Bilbo Swash Caps';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 90px;
+    text-decoration: none;
+    margin-right: 100px;
+    color:white;
+}
+.btn {
+    color:white;
+}
+
+.fuel__cards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 72px;
+}
+.fuel__cards__card__img {
+    height: 200px;
+    width: 200px;
+    margin:0px;
+    padding:0px;
+}
+.fuel__cards__card__title {
+    font-family: 'Monts';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    margin-top: 21px;
+}
+
+h1{
+    font-family: "Monts";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 78px;
+    text-align: center;
+    max-width: 1150px;
+    margin: auto;
+    padding-bottom: 0px;
+}
+p {
+    margin-top:95px;
+    font-family: 'Monts';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: justify;
+}
